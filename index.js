@@ -1,8 +1,8 @@
+var counter=0 
 function takeANumber(line, name,) {
 line.push(name)
+counter++
 return `Welcome, ${name}. You are number ${counter} in line.`
-
-  
 }
 function nowServing(line) {
 if (!line.length) {
