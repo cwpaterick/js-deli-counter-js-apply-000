@@ -1,6 +1,8 @@
-function takeANumber(line, name) {
+function takeANumber(line, name,) {
 line.push(name)
-return `Welcome, ${name}. You are number ${line.length} in line.`
+return `Welcome, ${name}. You are number ${counter} in line.`
+
+  
 }
 function nowServing(line) {
 if (!line.length) {
@@ -16,6 +18,6 @@ else{ var lineString = [];
 for ( var L = 0; L<line.length ; L++){
 lineString.push((L+1)+". "+line[L]);
 }
-return "The line is currently: "+ lineString.join(", ")
+return "The line is currently: "+ lineArray.join(", ")
 }
 }
