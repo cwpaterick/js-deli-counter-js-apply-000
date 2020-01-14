@@ -14,6 +14,7 @@ return "The line is currently empty.";
 }
 else{ var lineString = [];
 for ( var L = 0; L<line.length ; L++){
+lineString.push((L+1)+". "+line[L]);
 }
 return "The line is currently: "+ lineString.join(", ")
 }
